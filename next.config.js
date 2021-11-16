@@ -16,5 +16,7 @@ module.exports = {
     },
     env: {
         ENV: process.env.ENV,
+        PORT: process.env.PORT,
+        MONGO_URI: process.env.MONGO_URI,
     }
 };
